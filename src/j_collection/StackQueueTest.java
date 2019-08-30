@@ -1,0 +1,46 @@
+package j_collection;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
+public class StackQueueTest {
+	public static void main(String[] args) {
+		Stack<String> list1 = new Stack<String>();
+		list1.push("0");
+		list1.push("1");
+		list1.push("2");
+		System.out.println("===========Stack==========");
+		while(!list1.empty()){
+			System.out.println(list1.pop());
+		}
+		
+		System.out.println("============Que============");
+		Queue<String> que = new LinkedList<String>();
+		que.offer("0");
+		que.offer("1");
+		que.offer("2");
+		
+		while(!que.isEmpty()){
+			System.out.println(que.poll());
+		}
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
